@@ -23,6 +23,7 @@ require('mason-lspconfig').setup({
 	  'arduino_language_server',
 	  --'ccls',
 	  'csharp_ls',
+      'omnisharp',
 	  'cssls',
 	  'cssmodules_ls',
 	  'dockerls',
@@ -30,7 +31,7 @@ require('mason-lspconfig').setup({
 	  'html',
 	  'jsonls',
 	  --'phpactor',
-	  --'sqls',
+      'sqlls',
 	  'tailwindcss',
   },
   handlers = {
@@ -55,7 +56,7 @@ cmp.setup({
   mapping = cmp.mapping.preset.insert({
     ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
     ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
-    ['<C-y>'] = cmp.mapping.confirm({ select = true }),
+    ['<Enter>'] = cmp.mapping.confirm({ select = true }),
     ['<C-Space>'] = cmp.mapping.complete(),
   }),
 })
