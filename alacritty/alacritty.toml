@@ -1,0 +1,55 @@
+import = ["/Users/craigsau/.config/alacritty/themes/themes/argonaut.yaml"]
+live_config_reload = true
+
+[colors.bright]
+black = "#3c3836"
+blue = "#7daea3"
+cyan = "#89b482"
+green = "#a9b665"
+magenta = "#d3869b"
+red = "#ea6962"
+white = "#d4be98"
+yellow = "#d8a657"
+
+[colors.normal]
+black = "#3c3836"
+blue = "#7daea3"
+cyan = "#89b482"
+green = "#a9b665"
+magenta = "#d3869b"
+red = "#ea6962"
+white = "#d4be98"
+yellow = "#d8a657"
+
+[colors.primary]
+background = "#282828"
+foreground = "#d4be98"
+
+[cursor]
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 14.5
+
+[font.normal]
+family = "RobotoMono NF"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+key = "Left"
+mods = "Alt"
+
+[scrolling]
+history = 100000
+
+[window]
+dynamic_title = true
+title = "Terminal"

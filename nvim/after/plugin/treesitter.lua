@@ -23,7 +23,8 @@ require'nvim-treesitter.configs'.setup {
 	  "lua", 
 	  "vim", 
 	  "vimdoc", 
-	  "query" 
+	  "query",
+      "glsl"
   },
 
   autotag = {

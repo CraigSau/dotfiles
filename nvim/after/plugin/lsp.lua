@@ -22,7 +22,7 @@ require('mason-lspconfig').setup({
 	  'rust_analyzer',
 	  'arduino_language_server',
 	  --'ccls',
-	  'csharp_ls',
+	  --'csharp_ls',
       'omnisharp',
 	  'cssls',
 	  'cssmodules_ls',
@@ -33,6 +33,7 @@ require('mason-lspconfig').setup({
 	  --'phpactor',
       'sqlls',
 	  'tailwindcss',
+      'glsl_analyzer',
   },
   handlers = {
     lsp_zero.default_setup,
