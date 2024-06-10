@@ -24,4 +24,5 @@ return {
   },
 
   vim.keymap.set('n', '<leader>ft', '<cmd> Neotree reveal<CR>'),
+  vim.keymap.set('n', '<leader>tc', '<cmd> Neotree close<CR>'),
 }
