@@ -160,7 +160,7 @@ return {
                 -- gopls = {},
                 -- pyright = {},
                 -- rust_analyzer = {},
-                clangd = {},
+                -- clangd = {},
                 cmake = {},
                 glsl_analyzer = {},
                 cssls = {},
